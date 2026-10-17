@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f5f6f8"/>
+  <g fill="#2551e0" opacity="0.16">
+    <circle cx="920" cy="120" r="2.4"/>
+    <circle cx="960" cy="120" r="2.4"/>
+    <circle cx="1000" cy="120" r="2.4"/>
+    <circle cx="1040" cy="120" r="2.4"/>
+    <circle cx="1080" cy="120" r="2.4"/>
+    <circle cx="1120" cy="120" r="2.4"/>
+    <circle cx="920" cy="160" r="2.4"/>
+    <circle cx="960" cy="160" r="2.4"/>
+    <circle cx="1000" cy="160" r="2.4"/>
+    <circle cx="1040" cy="160" r="2.4"/>
+    <circle cx="1080" cy="160" r="2.4"/>
+    <circle cx="1120" cy="160" r="2.4"/>
+    <circle cx="920" cy="200" r="2.4"/>
+    <circle cx="960" cy="200" r="2.4"/>
+    <circle cx="1000" cy="200" r="2.4"/>
+    <circle cx="1040" cy="200" r="2.4"/>
+    <circle cx="1080" cy="200" r="2.4"/>
+    <circle cx="1120" cy="200" r="2.4"/>
+    <circle cx="920" cy="240" r="2.4"/>
+    <circle cx="960" cy="240" r="2.4"/>
+    <circle cx="1000" cy="240" r="2.4"/>
+    <circle cx="1040" cy="240" r="2.4"/>
+    <circle cx="1080" cy="240" r="2.4"/>
+    <circle cx="1120" cy="240" r="2.4"/>
+    <circle cx="920" cy="280" r="2.4"/>
+    <circle cx="960" cy="280" r="2.4"/>
+    <circle cx="1000" cy="280" r="2.4"/>
+    <circle cx="1040" cy="280" r="2.4"/>
+    <circle cx="1080" cy="280" r="2.4"/>
+    <circle cx="1120" cy="280" r="2.4"/>
+  </g>
+  <rect x="80" y="150" width="54" height="8" rx="4" fill="#2551e0"/>
+  <text x="80" y="130" font-family="Menlo, monospace" font-size="26" letter-spacing="4" fill="#2551e0">KAMILGT</text>
+  <text x="80" y="250" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#14171c">Разработка сайтов</text>
+  <text x="80" y="326" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#14171c">и цифровых продуктов</text>
+  <text x="80" y="404" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#4f5967">Сайты · Веб-приложения · Интеграции и автоматизация</text>
+  <rect x="80" y="470" width="252" height="58" rx="12" fill="#2551e0"/>
+  <text x="206" y="507" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff">Обсудить проект</text>
+  <rect x="352" y="470" width="212" height="58" rx="12" fill="#ffffff" stroke="#ccd3de" stroke-width="2"/>
+  <text x="458" y="507" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#14171c">Смотреть проекты</text>
+  <g transform="translate(80 574)">
+    <rect width="46" height="46" rx="12" fill="#2551e0"/>
+    <path d="M15 10v26" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M32 10 18 23l14 13" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="140" y="604" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#14171c">kamilgt.github.io</text>
+</svg>

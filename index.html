@@ -1,4 +1,420 @@
-<h1>Привет, мир!</h1>
-<h2>Пространство для демонстрации проектов</h2>
-<h2>Добавь в адресной строке - имя репозитория - после kamilgt.github.io/ </h2>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Разработка сайтов и цифровых продуктов — KamilGT</title>
+  <meta name="description" content="Разрабатываю сайты, веб-приложения и цифровые решения с пониманием задач бизнеса: лендинги, многостраничные сайты, интерфейсы, интеграции и автоматизация. Реальные проекты с описанием задач.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://kamilgt.github.io/">
 
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="KamilGT">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Разработка сайтов и цифровых продуктов — KamilGT">
+  <meta property="og:description" content="Сайты, веб-приложения, интеграции и автоматизация. Портфолио с реальными проектами и описанием подхода к задачам бизнеса.">
+  <meta property="og:url" content="https://kamilgt.github.io/">
+  <meta property="og:image" content="https://kamilgt.github.io/assets/images/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к основному содержанию</a>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">
+        <svg class="logo__mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <rect width="64" height="64" rx="14" fill="#2551e0"/>
+          <path d="M20 15v34" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+          <path d="M44 15 25 32l19 17" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        KamilGT<span class="logo__dot">.</span><span class="vh"> — на главную страницу</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
+        <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span></span>
+      </button>
+
+      <nav class="nav" id="site-nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="index.html" aria-current="page">Главная</a></li>
+          <li><a href="projects.html">Проекты</a></li>
+          <li><a href="index.html#about">Обо мне</a></li>
+          <li><a href="index.html#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Первый экран -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div>
+          <p class="hero__eyebrow">Сайты · Веб-приложения · Интеграции</p>
+          <h1 id="hero-title">Разработка сайтов и цифровых продуктов</h1>
+          <p class="hero__lead">Разрабатываю сайты и цифровые решения с пониманием задач бизнеса — от веб-интерфейсов до интеграций и автоматизации.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contacts">Обсудить проект</a>
+            <a class="link-arrow" href="projects.html">Посмотреть проекты</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-hidden="true">
+          <p class="hero-panel__label">Направления работы</p>
+          <ul class="hero-panel__rows">
+            <li>
+              <span class="hero-panel__num">01</span>
+              <span class="hero-panel__name">Сайты</span>
+              <span class="hero-panel__meta">лендинги · визитки · многостраничные</span>
+            </li>
+            <li>
+              <span class="hero-panel__num">02</span>
+              <span class="hero-panel__name">Веб-приложения</span>
+              <span class="hero-panel__meta">интерфейсы · логика · данные</span>
+            </li>
+            <li>
+              <span class="hero-panel__num">03</span>
+              <span class="hero-panel__name">Интеграции</span>
+              <span class="hero-panel__meta">API · обмен данными · автоматизация</span>
+            </li>
+          </ul>
+          <p class="hero-panel__foot">HTML · CSS · JavaScript</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Избранные проекты -->
+    <section class="section section--surface" id="featured" aria-labelledby="featured-title">
+      <div class="container">
+        <div class="section-top">
+          <div class="section-head">
+            <p class="eyebrow">Проекты</p>
+            <h2 id="featured-title">Избранные проекты</h2>
+            <p class="lead">Реальные сайты и приложение. В каждом кейсе — задача, реализованные решения и технические детали.</p>
+          </div>
+          <a class="link-arrow" href="projects.html">Все проекты</a>
+        </div>
+
+        <div class="grid grid--3">
+
+          <article class="pcard reveal">
+            <div class="pvis" aria-hidden="true">
+              <div class="pvis__top"><span>Кейс 01</span><span>Лендинг</span></div>
+              <p class="pvis__title">Сайт для преподавателя математики</p>
+              <p class="pvis__foot">7–11 классы · ОГЭ и ЕГЭ</p>
+              <span class="pvis__glyph">x²</span>
+            </div>
+            <div class="pcard__body">
+              <span class="tag tag--accent pcard__cat">Лендинг</span>
+              <h3>Сайт для преподавателя математики</h3>
+              <p class="pcard__desc">Лендинг услуг индивидуальных занятий по математике: направления подготовки, подход к занятиям, ответы на вопросы и форма обращения.</p>
+              <ul class="pcard__tech" aria-label="Технологии проекта">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="pcard__actions">
+                <a class="link-arrow" href="projects/landing-math.html">Открыть кейс</a>
+                <a class="link-ext" href="https://landing-1-88d245.netlify.app/" target="_blank" rel="noopener noreferrer">Открыть сайт<span class="vh"> (откроется в новой вкладке)</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pcard reveal">
+            <div class="pvis" aria-hidden="true">
+              <div class="pvis__top"><span>Кейс 02</span><span>Сайт услуг</span></div>
+              <p class="pvis__title">Сайт Ильверы Ситдиковой</p>
+              <p class="pvis__foot">Услуги · Медиа · Отзывы</p>
+              <span class="pvis__glyph">И</span>
+            </div>
+            <div class="pcard__body">
+              <span class="tag tag--accent pcard__cat">Персональный сайт</span>
+              <h3>Сайт Ильверы Ситдиковой</h3>
+              <p class="pcard__desc">Персональный сайт услуг: представление деятельности и направлений работы, галерея медиаматериалов и раздел с отзывами.</p>
+              <ul class="pcard__tech" aria-label="Технологии проекта">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="pcard__actions">
+                <a class="link-arrow" href="projects/ilvera-site.html">Открыть кейс</a>
+                <a class="link-ext" href="https://ilvera-s.github.io/" target="_blank" rel="noopener noreferrer">Открыть сайт<span class="vh"> (откроется в новой вкладке)</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pcard reveal">
+            <div class="pvis" aria-hidden="true">
+              <div class="pvis__top"><span>Кейс 03</span><span>Веб-приложение</span></div>
+              <p class="pvis__title">Expense Tracker</p>
+              <p class="pvis__foot">Доходы · Расходы · Категории</p>
+              <span class="pvis__glyph">₽</span>
+            </div>
+            <div class="pcard__body">
+              <span class="tag tag--accent pcard__cat">Веб-приложение</span>
+              <h3>Expense Tracker</h3>
+              <p class="pcard__desc">Учёт доходов и расходов с категориями, датами и комментариями: фильтрация, поиск, сводные показатели и хранение данных в браузере.</p>
+              <ul class="pcard__tech" aria-label="Технологии проекта">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>LocalStorage</li>
+              </ul>
+              <div class="pcard__actions">
+                <a class="link-arrow" href="projects/expense-tracker.html">Открыть кейс</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Направления разработки -->
+    <section class="section" id="directions" aria-labelledby="directions-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Направления</p>
+          <h2 id="directions-title">Что можно обсудить</h2>
+          <p class="lead">Ниже — виды задач, которые можно обсудить. Не по каждому направлению уже есть коммерческий кейс, поэтому актуальные примеры смотрите в каталоге проектов.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="dir-card reveal">
+            <p class="dir-card__num">01</p>
+            <h3>Сайты</h3>
+            <p>Представление услуг, экспертизы и проектов в интернете — от одного экрана до многостраничной структуры.</p>
+            <ul class="list-dots">
+              <li>лендинги</li>
+              <li>сайты-визитки</li>
+              <li>многостраничные сайты</li>
+            </ul>
+          </article>
+
+          <article class="dir-card reveal">
+            <p class="dir-card__num">02</p>
+            <h3>Веб-приложения</h3>
+            <p>Интерфейсы для рабочих и личных задач: формы, списки, фильтры, отчёты и понятная работа с данными.</p>
+            <ul class="list-dots">
+              <li>интерфейсы</li>
+              <li>прикладная логика</li>
+              <li>работа с данными</li>
+            </ul>
+          </article>
+
+          <article class="dir-card reveal">
+            <p class="dir-card__num">03</p>
+            <h3>Интеграции и автоматизация</h3>
+            <p>Соединение сервисов и сокращение ручной работы: обмен данными, сценарии и автоматизация процессов.</p>
+            <ul class="list-dots">
+              <li>взаимодействие между системами</li>
+              <li>API и обмен данными</li>
+              <li>автоматизация бизнес-процессов</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Технический стек -->
+    <section class="section section--surface" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Технологии</p>
+          <h2 id="stack-title">Технический стек</h2>
+          <p class="lead">Технологии, которые подтверждены материалами проектов и фактическим опытом. Без шкал и рейтингов — только то, что реально применяется.</p>
+        </div>
+
+        <ul class="stack-list">
+          <li class="chip reveal">
+            <img class="chip__icon" src="assets/icons/html.svg" alt="" width="27" height="27">
+            <span>
+              <span class="chip__name">HTML5</span>
+              <span class="chip__note">семантичная разметка страниц</span>
+            </span>
+          </li>
+          <li class="chip reveal">
+            <img class="chip__icon" src="assets/icons/css.svg" alt="" width="27" height="27">
+            <span>
+              <span class="chip__name">CSS3</span>
+              <span class="chip__note">современная вёрстка и стили</span>
+            </span>
+          </li>
+          <li class="chip reveal">
+            <img class="chip__icon" src="assets/icons/js.svg" alt="" width="27" height="27">
+            <span>
+              <span class="chip__name">JavaScript (vanilla)</span>
+              <span class="chip__note">интерактив без фреймворков</span>
+            </span>
+          </li>
+          <li class="chip reveal">
+            <img class="chip__icon" src="assets/icons/storage.svg" alt="" width="27" height="27">
+            <span>
+              <span class="chip__name">LocalStorage</span>
+              <span class="chip__note">хранение данных в браузере</span>
+            </span>
+          </li>
+          <li class="chip reveal">
+            <img class="chip__icon" src="assets/icons/responsive.svg" alt="" width="27" height="27">
+            <span>
+              <span class="chip__name">Адаптивная вёрстка</span>
+              <span class="chip__note">мобильные, планшеты, десктопы</span>
+            </span>
+          </li>
+          <li class="chip reveal">
+            <img class="chip__icon" src="assets/icons/a11y.svg" alt="" width="27" height="27">
+            <span>
+              <span class="chip__name">Доступность</span>
+              <span class="chip__note">клавиатура, фокус, контраст</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Опыт и профессиональный профиль -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Обо мне</p>
+          <h2 id="about-title">Опыт и профессиональный профиль</h2>
+          <p class="lead">Два направления, которые дополняют друг друга: разработка и понимание бизнес-процессов, привитое работой в финансовом секторе и управлении.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="profile-card reveal">
+            <div class="profile-card__head">
+              <p class="eyebrow">Направление 1</p>
+              <h3>Разработка</h3>
+            </div>
+            <ul class="list-check">
+              <li>Создание сайтов и веб-приложений</li>
+              <li>Frontend- и backend-задачи в рамках подтверждённых компетенций</li>
+              <li>Интеграции и автоматизация</li>
+            </ul>
+          </article>
+
+          <article class="profile-card reveal">
+            <div class="profile-card__head">
+              <p class="eyebrow">Направление 2</p>
+              <h3>Бизнес и управление</h3>
+            </div>
+            <ul class="list-check">
+              <li>Более 30 лет опыта в финансовом секторе</li>
+              <li>Управленческий опыт</li>
+              <li>Управление IT-проектами и продуктами в финансовом секторе</li>
+              <li>Анализ требований и бизнес-процессов</li>
+              <li>Взаимодействие с заказчиками и командами</li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="profile-note">Опыт в финансовом секторе и управлении — отдельное направление, а не стаж программирования: он дополняет разработку пониманием задач бизнеса.</p>
+
+        <div class="block-head">
+          <h3>Образование</h3>
+          <p>Подтверждённые сведения об образовании и обучении.</p>
+        </div>
+
+        <div class="edu-grid">
+          <div class="edu-item reveal">
+            <p class="edu-item__title">Кандидат экономических наук</p>
+            <p class="edu-item__meta">Учёная степень</p>
+          </div>
+          <div class="edu-item reveal">
+            <p class="edu-item__title">УГАТУ</p>
+            <p class="edu-item__meta">Магистр прикладной информатики, 2016</p>
+          </div>
+          <div class="edu-item reveal">
+            <p class="edu-item__title">Школа 21</p>
+            <p class="edu-item__meta">Обучение около полутора лет</p>
+          </div>
+          <div class="edu-item reveal">
+            <p class="edu-item__title">Университет Иннополис</p>
+            <p class="edu-item__meta">Курсы по Java и машинному обучению</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Форматы сотрудничества -->
+    <section class="section section--surface" id="formats" aria-labelledby="formats-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Форматы</p>
+          <h2 id="formats-title">Форматы сотрудничества</h2>
+          <p class="lead">Формат подбирается под задачу: разовый проект, развитие продукта или отдельные задачи внутри вашей команды.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="fmt-card reveal">
+            <p class="fmt-card__num">01</p>
+            <h3>Разовый проект</h3>
+            <p>Задача с определённым результатом: от постановки и вёрстки до опубликованного сайта или приложения.</p>
+          </article>
+
+          <article class="fmt-card reveal">
+            <p class="fmt-card__num">02</p>
+            <h3>Долгосрочная разработка</h3>
+            <p>Развитие и поддержка цифрового продукта: доработки, новые разделы и улучшения по мере роста задач.</p>
+          </article>
+
+          <article class="fmt-card reveal">
+            <p class="fmt-card__num">03</p>
+            <h3>Отдельные задачи в команде</h3>
+            <p>Выполнение конкретных задач в существующей команде: вёрстка, интерфейсы, интеграции, автоматизация.</p>
+          </article>
+        </div>
+
+        <p class="fmt-note">Стоимость рассчитывается индивидуально — в зависимости от задачи, требований и объёма работ.</p>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="section" id="contacts" aria-labelledby="contacts-title">
+      <div class="container">
+        <div class="contact-card reveal">
+          <p class="eyebrow">Контакты</p>
+          <h2 id="contacts-title">Обсудить проект</h2>
+          <p>Каналы связи (Telegram и e-mail) пока не опубликованы: контакты будут добавлены в этот раздел после подтверждения. Чтобы не размещать неработающие кнопки, этот блок ведёт к каталогу работ.</p>
+          <p>Познакомиться с работами можно прямо сейчас — все кейсы собраны в каталоге проектов.</p>
+          <a class="btn btn--ghost" href="projects.html">Смотреть проекты</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="footer__logo" href="index.html">
+            <svg class="logo__mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+              <rect width="64" height="64" rx="14" fill="#2551e0"/>
+              <path d="M20 15v34" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+              <path d="M44 15 25 32l19 17" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            KamilGT<span class="vh"> — на главную страницу</span>
+          </a>
+          <p class="footer__desc">Сайты, веб-приложения, интеграции и автоматизация бизнес-процессов.</p>
+        </div>
+        <nav class="footer__links" aria-label="Навигация в подвале">
+          <a href="projects.html">Проекты</a>
+          <a href="index.html#contacts">Контакты</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span data-year>2026</span> KamilGT</p>
+        <p>Статический сайт на HTML, CSS и JavaScript</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

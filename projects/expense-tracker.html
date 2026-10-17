@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кейс: Expense Tracker — учёт доходов и расходов | KamilGT</title>
+  <meta name="description" content="Кейс: веб-приложение Expense Tracker на vanilla HTML/CSS/JavaScript. Учёт доходов и расходов, категории, фильтрация, поиск, сводные показатели, localStorage.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://kamilgt.github.io/projects/expense-tracker.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="KamilGT">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Кейс: Expense Tracker — учёт доходов и расходов">
+  <meta property="og:description" content="Веб-приложение на vanilla HTML/CSS/JavaScript: категории, даты и комментарии, фильтрация и поиск, сводные показатели, хранение данных в браузере.">
+  <meta property="og:url" content="https://kamilgt.github.io/projects/expense-tracker.html">
+  <meta property="og:image" content="https://kamilgt.github.io/assets/images/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="../styles.css">
+  <script src="../script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к основному содержанию</a>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="logo" href="../index.html">
+        <svg class="logo__mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <rect width="64" height="64" rx="14" fill="#2551e0"/>
+          <path d="M20 15v34" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+          <path d="M44 15 25 32l19 17" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        KamilGT<span class="logo__dot">.</span><span class="vh"> — на главную страницу</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
+        <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span></span>
+      </button>
+
+      <nav class="nav" id="site-nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="../index.html">Главная</a></li>
+          <li><a href="../projects.html" aria-current="page">Проекты</a></li>
+          <li><a href="../index.html#about">Обо мне</a></li>
+          <li><a href="../index.html#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="case">
+      <div class="container">
+
+        <p class="case__back"><a class="link-back" href="../projects.html">Все проекты</a></p>
+
+        <div class="case-hero">
+          <div>
+            <div class="case-hero__tags">
+              <span class="tag tag--accent">Веб-приложения</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <h1>Expense Tracker</h1>
+            <p class="case-hero__lead">Веб-приложение для учёта доходов и расходов: операции с категориями, датами и комментариями, фильтрация и поиск, сводные показатели.</p>
+          </div>
+
+          <div class="pvis" aria-hidden="true">
+            <div class="pvis__top"><span>Кейс 03</span><span>Веб-приложение</span></div>
+            <p class="pvis__title">Expense Tracker</p>
+            <p class="pvis__foot">Доходы · Расходы · Категории</p>
+            <span class="pvis__glyph">₽</span>
+          </div>
+        </div>
+
+        <div class="case-content">
+
+          <section class="case-section">
+            <h2>Задача</h2>
+            <p>Организовать учёт личных доходов и расходов так, чтобы операции было удобно вносить, находить и анализировать.</p>
+          </section>
+
+          <section class="case-section">
+            <h2>Реализованные функции</h2>
+            <ul class="list-check">
+              <li>учёт доходов и расходов;</li>
+              <li>категории операций;</li>
+              <li>даты и комментарии к операциям;</li>
+              <li>фильтрация списка операций;</li>
+              <li>поиск по внесённым данным;</li>
+              <li>сводные показатели по доходам и расходам;</li>
+              <li>адаптивный интерфейс для мобильных устройств и десктопов.</li>
+            </ul>
+          </section>
+
+          <section class="case-section">
+            <h2>Технологии</h2>
+            <ul class="case-tech">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript (vanilla)</li>
+              <li>LocalStorage</li>
+            </ul>
+            <p>Приложение реализовано без фреймворков и внешних библиотек: разметка, стили и логика написаны на HTML, CSS и JavaScript.</p>
+          </section>
+
+          <section class="case-section">
+            <h2>Особенности</h2>
+            <ul class="list-check">
+              <li>данные сохраняются локально в браузере (localStorage) и не синхронизируются между устройствами;</li>
+              <li>очистка данных сайта в браузере удаляет сохранённые операции;</li>
+              <li>приложение работает как статическая страница без серверной части.</li>
+            </ul>
+            <p class="case-note">Публичная демонстрация и репозиторий проекта пока не опубликованы, поэтому в этом кейсе нет ссылок на работающую версию и исходный код. Описание составлено по известным характеристикам проекта; опубликованная версия приложения не проверялась.</p>
+          </section>
+
+        </div>
+
+        <nav class="case-nav" aria-label="Навигация по кейсам">
+          <a class="link-arrow" href="ilvera-site.html">Предыдущий кейс: сайт Ильверы Ситдиковой</a>
+        </nav>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="footer__logo" href="../index.html">
+            <svg class="logo__mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+              <rect width="64" height="64" rx="14" fill="#2551e0"/>
+              <path d="M20 15v34" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+              <path d="M44 15 25 32l19 17" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            KamilGT<span class="vh"> — на главную страницу</span>
+          </a>
+          <p class="footer__desc">Сайты, веб-приложения, интеграции и автоматизация бизнес-процессов.</p>
+        </div>
+        <nav class="footer__links" aria-label="Навигация в подвале">
+          <a href="../projects.html">Проекты</a>
+          <a href="../index.html#contacts">Контакты</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span data-year>2026</span> KamilGT</p>
+        <p>Статический сайт на HTML, CSS и JavaScript</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
